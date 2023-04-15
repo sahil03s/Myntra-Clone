@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto:ital,wght@1,300&display=swap');
+
+html,  body {
+    font-family: "Assistant",sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    height: 85px;
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px;
+}
+
+.left img {
+    width: 45px;
+    height: 30px;
+}
+
+.right {
+    margin-left: 106px;
+}
+
+nav {
+    padding: 19px 12px;
+    font-size: 14px;
+    
+}
+
+.container {
+    padding: 0 2vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 17px;
+    min-width: fit-content;
+    cursor: pointer;
+}
+
+.section-1 {
+    background-color: #f2f2f2;
+}
+
+.footer-div {
+    display: inline-grid;
+    grid-template-columns: repeat(4,auto);
+    margin-left: 50px;
+}
+
+.footer-container {
+    padding-right: 40px;
+    
+}
+
+.footer-heading {
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 32px;
+    margin-top: 25px;
+    color: #000;
+}
+
+.footer-section {
+    padding-left: 87px;
+}
+
